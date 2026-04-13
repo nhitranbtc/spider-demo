@@ -1,0 +1,9 @@
+[package]
+name = "spider_demo"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+spider = { version = "2", features = ["spider_cloud"] }
+tokio = { version = "1", features = ["rt-multi-thread", "macros"] }
+dotenvy = "0.15"
